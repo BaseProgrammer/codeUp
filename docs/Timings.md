@@ -1,0 +1,3 @@
+# How do Unix timing work?
+
+Let's say today is `Tue, 02 March 2021 23:59:59 GMT`, if we get the current date and time (GMT Timezone) with the Javascript's builtin class `new Date();` and create another Date class but only get the date (so we can add 23:59:59 GMT) at the end of it, we can compare it. Thus, using an IF/ELSE statement, we can return if it's true (the dates and timings match up) happy days, otherwise continue the loop.
